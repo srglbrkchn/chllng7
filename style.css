@@ -12,9 +12,9 @@ body {
 img {
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+  mix-blend-mode: multiply;
   border-radius: 0 10px 10px 0;
-  background-color: hsl(277, 54%, 21%);
+  background-color: hsl(277, 64%, 61%);
 }
 
 .content {
@@ -51,7 +51,7 @@ img {
   height: 28rem;
   background-size: cover;
   border-radius: 0 10px 10px 0;
-  background-color: hsl(277, 90%, 25%);
+  background-color: hsl(277, 64%, 61%);
 }
 
 .header {
@@ -147,7 +147,7 @@ img {
     height: 25rem;
     background-size: cover;
     border-radius: 10px 10px 0 0;
-    background-color: hsl(277, 90%, 25%);
+    background-color: hsl(277, 64%, 61%);
   }
 
 
@@ -231,7 +231,7 @@ img {
     height: 15rem;
     background-size: cover;
     border-radius: 10px 10px 0 0;
-    background-color: hsl(277, 90%, 25%);
+    background-color: hsl(277, 64%, 61%);
   }
 
 
@@ -256,11 +256,11 @@ img {
 
 /* Animatin class */
 .fade-out {
-  animation: fadeOut 4s ease;
-  -webkit-animation: fadeOut 4s ease;
-  -moz-animation: fadeOut 4s ease;
-  -o-animation: fadeOut 4s ease;
-  -ms-animation: fadeOut 4s ease;
+  animation: fadeOut 1s ease;
+  -webkit-animation: fadeOut 1s ease;
+  -moz-animation: fadeOut 1s ease;
+  -o-animation: fadeOut 1s ease;
+  -ms-animation: fadeOut 1s ease;
 }
 
 /* Animation */
@@ -270,6 +270,6 @@ img {
   }
 
   100% {
-    opacity: 0.4;
+    opacity: 0.8;
   }
 }
